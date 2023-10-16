@@ -1,0 +1,168 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: #353935;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 30px;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url('nelson_mandela_covers.png');
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    padding: 0px;
+    text-align: center;
+    color: #FAF9F6;
+}
+
+
+blockquote {
+	margin: 1em 3em;
+	color: #E3735E;
+	border-left: 2px solid #E3735E;
+	padding-left: 1em; 
+    font-size: 50px;
+}
+
+
+/********** About Starts **********/
+.main-section {
+    width: 100%;
+    float: left;
+    padding: 50px 0px 40px 0px;
+}
+
+.about img {
+    width: 24%;
+    float: left;
+}
+
+.about div {
+    width: 70%;
+    margin-left: 20px;
+    float: left;
+    line-height: 30px;
+    color: black;
+}
+
+.heading {
+    margin-top: 0;
+}
+
+/********** About Ends **********/
+
+
+/********** Timeline Starts **********/
+
+.timeline {
+    background-color: #FAF9F6;
+}
+
+#timeline_heading {
+    color: red;
+    text-align: center;
+}
+
+.timeline-content {
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    margin-left: auto;
+    color: #36454F;
+}
+
+.timeline-content ul {
+    width: 50%;
+    margin: auto;
+}
+
+
+/********** Timeline Ends **********/
+
+
+/********** Books Starts **********/
+.books {
+    margin: auto;
+    text-align: center;
+}
+
+#books_heading {
+    color: red;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #bacdd8;
+    padding: 8px;
+    border-radius: 12px;
+    width: 350px;
+    float: left;
+    margin: 0 20px 0 30px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.card_heading{
+    color: black;
+}
+
+.card_text {
+    color: black;
+    text-align: justify;
+}
+
+/********** Books Ends **********/
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: #353935;
+    color: white;
+    text-align: center;
+}
